@@ -28,7 +28,7 @@ const colors = useDerivedValue(() => {
     <SafeAreaView style={styles.container}>
       <StatusBar />
       <Canvas style={{ flex: 1 }}>
-        <Rect x={0} y={0} width={width} height={height}>
+        <Rect x={0} y={0} width={width} height={height + 50}>
           <LinearGradient
             start={vec(0, 0)}
             end={vec(width, height)}
